@@ -10,6 +10,7 @@ Bài tập lớn học phần TTKN (định giá startup và đề xuất gọi 
 | `AgriPack_Model_final.xlsx` | Mô hình dựng trên file Excel mẫu của giảng viên: Drivers → Pro Forma → 3 BCTC 2026E–2030E → WACC → DCF, VC Method → Summary, Sensitivity, Checks. Sheet `Chart_Data` chứa dữ liệu của từng Fig. trong báo cáo (Fig_01 … Fig_A05), sheet `Ghi chu` ghi các lỗi của template đã sửa và các điểm cần cập nhật. |
 | `AgriPack_CFA_Report.html` | Báo cáo định giá dạng CFA Research Challenge, 12 trang A4, biểu đồ ở cột trái, đã sửa theo phản biện. Mở bằng trình duyệt; in ra PDF bằng Ctrl+P (A4, bật "Background graphics"). |
 | `AgriPack_CFA_Report.pdf` | Bản PDF xem trước của báo cáo HTML. |
+| `AgriPack_Series_A_Thuyet_trinh.pptx` | Bản thuyết trình 18 slide (16:9) theo dàn ý học phần, biểu đồ gốc PowerPoint có thể chỉnh sửa, kèm ghi chú người nói ở từng slide. |
 
 ## Kết quả chính (kịch bản cơ sở, t0 = 01/01/2026)
 
