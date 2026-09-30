@@ -1,29 +1,32 @@
 # CLAIDE-CFA – AgriPack: phản biện, mô hình định giá và báo cáo dạng CFA RC
 
-Bài tập lớn học phần TTKN (định giá startup và đề xuất gọi vốn Series A cho CTCP AgriPack). Người phản biện: Lộc.
+Bài tập lớn học phần TTKN (định giá startup CTCP AgriPack). Người phản biện, lập mô hình và dàn báo cáo: Lộc.
 
 ## Sản phẩm (thư mục `deliverables/`)
 
 | File | Nội dung |
 |---|---|
-| `TTKN_1_Loc_phan_bien.docx` | Bản nháp của nhóm, giữ nguyên nội dung, có 93 comment phản biện của Lộc (số liệu thiếu, lập luận chưa chặt, số cần bổ sung, lỗi logic). |
-| `AgriPack_Model_final.xlsx` | Mô hình dựng trên file Excel mẫu của giảng viên: Drivers → Pro Forma → 3 BCTC 2026E–2030E → WACC → DCF, VC Method → Summary, Sensitivity, Checks. Sheet `Chart_Data` chứa dữ liệu của từng Fig. trong báo cáo (Fig_01 … Fig_A05), sheet `Ghi chu` ghi các lỗi của template đã sửa và các điểm cần cập nhật. |
-| `AgriPack_CFA_Report.html` | Báo cáo định giá dạng CFA Research Challenge, 12 trang A4, biểu đồ ở cột trái, đã sửa theo phản biện. Mở bằng trình duyệt; in ra PDF bằng Ctrl+P (A4, bật "Background graphics"). |
-| `AgriPack_CFA_Report.pdf` | Bản PDF xem trước của báo cáo HTML. |
-| `AgriPack_CFA_Report.pptx` | Chính báo cáo HTML ở trên chuyển sang PowerPoint: 12 slide khổ A4 dọc, mỗi slide là một trang, giữ nguyên bố cục CFA. Chữ, bảng và biểu đồ đều chỉnh sửa được; mỗi biểu đồ là một nhóm hình (group) để di chuyển cả khối. |
-| `AgriPack_Series_A_Thuyet_trinh.pptx` | Bản thuyết trình 18 slide (16:9) theo dàn ý học phần, biểu đồ gốc PowerPoint có thể chỉnh sửa, kèm ghi chú người nói ở từng slide. |
+| `AgriPack_CFA_Report.html` | Báo cáo dạng CFA Research Challenge (15 trang thân + 8 trang phụ lục A4, biểu đồ ở cột trái). Mục 1–3 giữ nguyên văn bài TTKN_2 của nhóm; Mục 4 (dự phóng), 5 (định giá), 8 (bonus: định giá khi chưa có doanh thu) và phụ lục viết từ mô hình. Mục 6–7 không thuộc phạm vi. Mở bằng trình duyệt; in PDF bằng Ctrl+P (A4, bật "Background graphics"). |
+| `AgriPack_CFA_Report.pptx` | Chính báo cáo HTML ở trên chuyển sang PowerPoint: 23 slide khổ A4 dọc, mỗi slide một trang; chữ, bảng, biểu đồ chỉnh sửa được, mỗi biểu đồ là một group. |
+| `AgriPack_Model_final.xlsx` | Mô hình dựng trên file Excel mẫu của giảng viên: Drivers → Pro Forma → 3 BCTC 2026E–2030E → Discount rate → DCF, VC Method, Multiples → Summary, Sensitivity, Checks. Nguồn và lý do của mỗi giả định ghi ngay ô bên cạnh (Drivers cột K, Discount rate cột C, Assumption cột E, VCM, Multiples cột K, Summary cột D/G/N). `Chart_Data` chứa dữ liệu của từng Fig. (Fig_01 … Fig_A15). |
+| `AgriPack_CFA_Report.pdf` | Bản PDF xem trước của báo cáo HTML (cùng phiên bản). |
+| `TTKN_1_Loc_phan_bien.docx` | Bản nháp đầu của nhóm kèm 93 comment phản biện của Lộc. |
+| `AgriPack_Series_A_Thuyet_trinh.pptx` | Bản thuyết trình của phiên bản đầu (v1). **Không cập nhật** theo TTKN_2 vì Mục 6–7 (huy động vốn, pitching) ngoài phạm vi; số liệu trong file này đã cũ. |
 
 ## Kết quả chính (kịch bản cơ sở, t0 = 01/01/2026)
 
-- Doanh thu 47,5 tỷ (2025A) → 170,3 tỷ (2030E), CAGR 29%; biên EBITDA 16,2% → 20,2%.
-- CAPEX 2027 = 65% doanh thu (51,8 tỷ); FCFF âm 2026–2028, dương từ 2029.
-- WACC 13,8% (Ke 16,2%, total beta 1,48), g = 5%, RONIC 18%; tỷ lệ thất bại z = 40% (tích lũy 5 năm).
-- DCF 38,9 tỷ; VC Method 24,8 tỷ; pre-money khuyến nghị 31,8 tỷ (bình quân 50/50, khoảng 19,3–48,4 tỷ).
-- Cần 37,6 tỷ vốn cổ phần và 31,1 tỷ vay trung hạn. Gọi một lần: nhà đầu tư nhận 54,2%. Chia Series A hai đợt (20,7 tỷ + 16,9 tỷ cuối 2027 khi đạt mốc): founder giữ 50,5%, IRR kỳ vọng của nhà đầu tư 14,0% (gọi một lần: 11,4%).
-- Kịch bản Bear (sản lượng bằng 70% cơ sở): pre-money âm – lý do đợt 2 chỉ giải ngân khi đạt mốc.
+- Doanh thu 47,5 tỷ (2025A) → 170,3 tỷ (2030E), CAGR 29,1%; biên EBITDA 16,2% → 20,2%.
+- BCKQKD theo chức năng (VAS): 70% tiền lương và 90% khấu hao vào giá vốn, 30% và 10% vào CPBH & QLDN, áp dụng cả 2023–2025; biên gộp 51,0% (2025A) → 44,8% (2028E) → 47,6% (2030E).
+- Tỷ lệ tái đầu tư (CAPEX/doanh thu) 20% – 65% – 12% – 10% – 10% (2026–2030), so với trung vị 3,1% và P75 8,3% của 16 DN bao bì niêm yết; FCFF âm 2026–2028.
+- WACC 13,6%: Rf 3,92% = bình quân lợi suất TPCP 10 năm 2016–2025, ERP Việt Nam 8,13%, total beta 1,48, Ke 15,9%, Kd 10%; g = 5%, RONIC 18%; tỷ lệ thất bại z = 40%.
+- DCF 41,1 tỷ; VC Method 25,3 tỷ; Multiples 27,7 tỷ (EV/EBITDA, P/E 2025A, chiết khấu thanh khoản 30%). Pre-money bình quân 40/40/20: **32,1 tỷ** (khoảng 19,7–49,2 tỷ).
+- Độ nhạy theo nhân tố vĩ mô – ngành (chạy lại toàn bộ mô hình): sản lượng ×0,8/×1,2 làm pre-money −24,3/+28,3 tỷ, trong khi lãi suất hay CRP ±1 điểm % chỉ làm pre-money thay đổi khoảng 5–7 tỷ. Kịch bản Bear: −16,1 tỷ; Bull: 73,6 tỷ; đầu tư lớn năm 2028: 26,3 tỷ.
+- Nhu cầu vốn: 37,6 tỷ vốn cổ phần (2026) và 31,1 tỷ vay trung hạn (2027).
 
 ## Cần kiểm tra trước khi nộp
 
-- Lợi suất TPCP 10 năm (4,2%) và phần bù rủi ro quốc gia (3,9%) là ước tính của nhóm.
-- Đề bài ghi đầu tư lớn năm 2027, file Excel mẫu khóa 65% ở năm 2028. Mô hình theo đề bài; phương án 2028 chạy bằng ô `Drivers!C4` (pre-money bình quân 24,0 tỷ). Nên hỏi lại giảng viên.
-- Năm thành lập giả định 2021 để khớp BCTC; tên báo cáo IMARC về SAM và ngày hiệu lực Thông tư 27/2026/TT-BYT cần đối chiếu văn bản gốc.
+- Phần bù rủi ro quốc gia 3,9% là ước tính theo phương pháp Damodaran cho hạng Ba2; đối chiếu bảng CRP 01/2026.
+- Rf: các quan sát 2016, 2017 và 2023 là lãi suất phát hành/trúng thầu (không phải lợi suất thứ cấp cuối năm).
+- Đề bài ghi đầu tư lớn năm 2027, file Excel mẫu khóa 65% ở năm 2028; mô hình theo đề bài, phương án 2028 chạy bằng ô `Drivers!C4`.
+- Tên nhà máy, khu công nghiệp và khách hàng trong sơ đồ chuỗi giá trị (Fig. A02) là giả định minh họa.
+- Nội dung nhóm giữ nguyên văn, cần nhóm tự sửa: Nghị quyết 28/2022/NQ-HĐND (nên là Nghị định 08/2022/NĐ-CP, Điều 64); số liệu IMARC của thị trường bao bì phân hủy sinh học lặp lại đúng số của thị trường bao bì xanh (Mục 3.2); thị phần SAM F&B 4,3% (Mục 1) và 5,4% (Mục 2.1) chưa thống nhất; Tetra Pak được xếp vào doanh nghiệp nội địa; lỗi chính tả ("AgriPack mặt với", "BioWaps"/"BioWraps", "HAPIBO"/"HAPBIO"); năm tài liệu UNEP (2021 hay 2022); tiêu đề bài Wagner & Zanger (2023) cần đối chiếu theo DOI; câu nhắc "Phần 6" ở Mục 2.6.
