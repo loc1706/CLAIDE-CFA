@@ -22,13 +22,12 @@ Bài tập lớn học phần TTKN (định giá startup CTCP AgriPack). Ngườ
 - Giá trị cuối kỳ giữ công thức của file mẫu, FCFF 2031/(WACC − g); FCFF 2031 được chuẩn hóa với RONIC bằng ROIC 2030 của mô hình (13,9%), không thêm giả định mới.
 - VC Method: z = 40% theo hướng dẫn của đề bài cho giai đoạn đầu tăng trưởng; p = (1 + r)/(1 − z)^(1/n) − 1 = 25,9% (công thức giáo trình).
 - DCF 32,8 tỷ; VC Method 25,3 tỷ; Multiples 27,7 tỷ (EV/EBITDA, P/E 2025A, chiết khấu thanh khoản 30%; giá trị doanh nghiệp 26,4 tỷ, post-money 65,3 tỷ, nhà đầu tư mới nắm 57,6%). Pre-money bình quân 40/40/20: **28,8 tỷ** (khoảng 17,7–43,7 tỷ), gần bằng vốn chủ sở hữu sổ sách (30,0 tỷ).
-- Độ nhạy theo nhân tố vĩ mô – ngành (chạy lại toàn bộ mô hình): sản lượng ×0,8/×1,2 làm pre-money −27,6/+32,3 tỷ, trong khi lãi suất hay CRP ±1 điểm % chỉ làm pre-money thay đổi khoảng 5–6 tỷ. Kịch bản xấu (Bear): −25,8 tỷ; tốt (Bull): 76,2 tỷ; đầu tư lớn năm 2028: 19,2 tỷ.
+- Độ nhạy theo nhân tố vĩ mô – ngành (chạy lại toàn bộ mô hình): sản lượng ×0,8/×1,2 làm pre-money −27,6/+32,3 tỷ, trong khi lãi suất hay CRP ±1 điểm % chỉ làm pre-money thay đổi khoảng 5–6 tỷ. Kịch bản xấu (Bear): −25,8 tỷ; tốt (Bull): 76,2 tỷ.
 - Nhu cầu vốn: 37,6 tỷ vốn cổ phần (2026) và 31,1 tỷ vay trung hạn (2027).
 
 ## Cần kiểm tra trước khi nộp
 
 - Phần bù rủi ro quốc gia 3,9% là ước tính theo phương pháp Damodaran cho hạng Ba2.
 - Rf: các quan sát 2016, 2017 và 2023 là lãi suất phát hành/trúng thầu (không phải lợi suất thứ cấp cuối năm).
-- Đề bài ghi đầu tư lớn năm 2027, file Excel mẫu khóa 65% ở năm 2028; mô hình theo đề bài, phương án 2028 chạy bằng ô `Drivers!C4`.
 - Tên nhà máy, khu công nghiệp và khách hàng trong sơ đồ chuỗi giá trị (Fig. A02) là giả định minh họa.
 - Đã sửa trong bài nhóm: Nghị quyết 28/2022/NQ-HĐND → Nghị định 08/2022/NĐ-CP (Điều 64); số IMARC bị lặp ở Mục 3.2 thay bằng số bao bì F&B phân hủy sinh học (33,93 → 51,45 triệu USD, CAGR 4,73%); thị phần SAM F&B thống nhất 4,3% (miền Trung – Nam ~5,8%); Tetra Pak là tập đoàn đa quốc gia; lỗi chính tả ("đối mặt", "BioWraps", "HAPBIO"); Mục 2.6 dẫn sang Mục 4, 5 thay vì "Phần 6". Còn lại cần nhóm tự kiểm tra: năm tài liệu UNEP (2021 hay 2022) và tiêu đề bài Wagner & Zanger (2023) theo DOI.
